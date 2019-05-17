@@ -19,9 +19,11 @@ whenever they call update().
 See the book's chapter for more details!
 
 ### Decorator
+I follow the example from the book very closely.
 
 ### Factory
 
 ### Singleton
 
 ### Command
+
