@@ -22,6 +22,14 @@ See the book's chapter for more details!
 I follow the example from the book very closely.
 
 ### Factory
+I implement the factory method here. Not doing the abstract factory.
+
+Instead of Pizza, I will use Chocolate as the entity.
+(Using chocolate is perhaps not as good as the Pizza example in the book but it is just practice after all...)
+
+There are two concrete creator classes, the ChocolateStore classes.
+The product is Chocolate, and there are different types of chocolate - milk, white, and dark.
+Each of the chocolate types have slightly different ingredients, depending on which chocolate store it originates from.
 
 ### Singleton
 
