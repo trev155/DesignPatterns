@@ -32,6 +32,7 @@ The product is Chocolate, and there are different types of chocolate - milk, whi
 Each of the chocolate types have slightly different ingredients, depending on which chocolate store it originates from.
 
 ### Singleton
+The example is adapted from the book. Very simple example of using a Singleton pattern.
 
 ### Command
 
