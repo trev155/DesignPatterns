@@ -35,4 +35,15 @@ Each of the chocolate types have slightly different ingredients, depending on wh
 The example is adapted from the book. Very simple example of using a Singleton pattern.
 
 ### Command
+I follow the book's example quite closely.
+
+There are a couple of entry points to run, so here they are in order:
+1. Simple Remote Control
+- run the SimpleRemoteControlTest
+
+2. Remote Control
+- run the RemoteControlLoader
+
+3. Remote Control with Undo
+- run the RemoteControlWithUndoLoader
 

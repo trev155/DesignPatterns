@@ -11,4 +11,9 @@ public class StereoOnCommand implements Command {
     public void execute() {
         stereo.turnOn();
     }
+
+    @Override
+    public void undo() {
+        stereo.turnOff();
+    }
 }
