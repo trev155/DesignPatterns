@@ -7,6 +7,7 @@ public class SimpleRemoteControlTest {
 
         // Receiver
         Light light = new Light();
+        GarageDoor garageDoor = new GarageDoor();
 
         // Commands
         LightOnCommand lightOnCommand = new LightOnCommand(light);
@@ -15,6 +16,14 @@ public class SimpleRemoteControlTest {
 
         LightOffCommand lightOffCommand = new LightOffCommand(light);
         remote.setCommand(lightOffCommand);
+        remote.buttonWasPressed();
+
+        GarageDoorOpenCommand garageDoorOpenCommand = new GarageDoorOpenCommand(garageDoor);
+        remote.setCommand(garageDoorOpenCommand);
+        remote.buttonWasPressed();
+
+        GarageDoorCloseCommand garageDoorCloseCommand = new GarageDoorCloseCommand(garageDoor);
+        remote.setCommand(garageDoorCloseCommand);
         remote.buttonWasPressed();
     }
 }
