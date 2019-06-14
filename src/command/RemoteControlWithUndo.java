@@ -25,16 +25,16 @@ public class RemoteControlWithUndo {
 
     public void onButtonPressed(int slot) {
         onCommands[slot].execute();
-        undoCommand = offCommands[slot];
+        undoCommand = onCommands[slot];
     }
 
     public void offButtonPressed(int slot) {
         offCommands[slot].execute();
-        undoCommand = onCommands[slot];
+        undoCommand = offCommands[slot];
     }
 
     public void undoButtonPressed() {
-        undoCommand.execute();
+        undoCommand.undo();
     }
 
     public String toString() {

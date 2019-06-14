@@ -47,3 +47,9 @@ There are a couple of entry points to run, so here they are in order:
 3. Remote Control with Undo
 - run the RemoteControlWithUndoLoader
 
+4. Command pattern to keep track of state
+- run the RemoteControlLoaderCeilingFan
+
+5. Macro Commands
+- run the RemoteControlLoaderMacro
+

@@ -15,7 +15,7 @@ public class RemoteControlLoader {
         LightOffCommand lightOffCommand = new LightOffCommand(livingRoomLight);
         GarageDoorOpenCommand garageDoorOpenCommand = new GarageDoorOpenCommand(garageDoor);
         GarageDoorCloseCommand garageDoorCloseCommand = new GarageDoorCloseCommand(garageDoor);
-        CeilingFanOnCommand ceilingFanOnCommand = new CeilingFanOnCommand(ceilingFan);
+        CeilingFanOnMediumCommand ceilingFanOnCommand = new CeilingFanOnMediumCommand(ceilingFan);
         CeilingFanOffCommand ceilingFanOffCommand = new CeilingFanOffCommand(ceilingFan);
         StereoOnCommand stereoOnCommand = new StereoOnCommand(stereo);
         StereoOffCommand stereoOffCommand = new StereoOffCommand(stereo);
