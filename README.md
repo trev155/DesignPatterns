@@ -53,3 +53,7 @@ There are a couple of entry points to run, so here they are in order:
 5. Macro Commands
 - run the RemoteControlLoaderMacro
 
+### Builder
+Not in the Head First book, but still a good pattern to know.
+
+
