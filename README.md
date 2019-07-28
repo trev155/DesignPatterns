@@ -4,6 +4,9 @@ Practice with Design Patterns
 Examples adapted from the book "Head First Design Patterns"
 
 ## Notes
+### Builder
+Not in the Head First book, but still a good pattern to know. I came up with my own example for this one.
+
 ### Strategy
 The strategy pattern example is almost the exact same as the example used in the book.
 
@@ -53,7 +56,8 @@ There are a couple of entry points to run, so here they are in order:
 5. Macro Commands
 - run the RemoteControlLoaderMacro
 
-### Builder
-Not in the Head First book, but still a good pattern to know.
+### Adapter
+I only have the basic Duck / Turkey example from the book here. I also don't cover the facade pattern here, but it's
+a simple pattern so it probably does not need to be covered in here.
 
 
