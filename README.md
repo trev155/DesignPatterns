@@ -60,4 +60,7 @@ There are a couple of entry points to run, so here they are in order:
 I only have the basic Duck / Turkey example from the book here. I also don't cover the facade pattern here, but it's
 a simple pattern so it probably does not need to be covered in here.
 
+### Template
+I do the example from the book with coffee / tea. The example is really simple. Just run the BeverageRunner. 
+There is an input prompt when you run it.
 
